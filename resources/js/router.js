@@ -4,6 +4,7 @@ Vue.use(Router)
 
 import firstPage from './components/pages/myFirstVuePage'
 import newRoutePage from './components/pages/newRoutePage'
+import hooks from './components/pages/basic/hooks.vue'
 
 const routes = [
     {
@@ -13,7 +14,12 @@ const routes = [
     {
         path: '/new-route',
         component: newRoutePage
-    }
+    },
+    // Vue hooks
+    {
+        path: '/hooks',
+        component: hooks
+    },
 ]
 
 export default new Router({
