@@ -6,6 +6,7 @@
 
         <title>Full stack Blog</title>
 
+        <link rel="stylesheet" href="/css/all.css">
     </head>
     <body>
         {{-- vue JS will load inside the confines of the 'app' div --}}
