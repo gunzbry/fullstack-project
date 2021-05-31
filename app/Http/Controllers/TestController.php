@@ -11,4 +11,10 @@ class TestController extends Controller
             'msg' => 'we should return only json'
         ]);
     }
+
+    public function test(){
+        return response()->json([
+            'msg' => 'Some error occured',
+        ], 422);
+    }
 }
